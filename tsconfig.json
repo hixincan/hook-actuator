@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "strict": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "paths": {
+      "@@/*": [".dumi/tmp/*"],
+      "hook-actuator": ["src"],
+      "hook-actuator/*": ["src/*", "*"]
+    }
+  },
+  "exclude": ["node_modules", "lib", "es", "dist"]
+}
